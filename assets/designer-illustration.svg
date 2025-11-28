@@ -1,0 +1,39 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="90" cy="90" r="85" fill="#e3f2fd" />
+  
+  <!-- Laptop base -->
+  <rect x="45" y="95" width="90" height="50" rx="3" fill="#455a64" />
+  <rect x="40" y="143" width="100" height="4" rx="2" fill="#37474f" />
+  
+  <!-- Laptop screen -->
+  <rect x="50" y="65" width="80" height="32" rx="2" fill="#90caf9" />
+  <rect x="53" y="68" width="74" height="26" fill="#1976d2" />
+  
+  <!-- Code lines on screen -->
+  <line x1="58" y1="73" x2="75" y2="73" stroke="#fff" stroke-width="2" />
+  <line x1="58" y1="79" x2="90" y2="79" stroke="#fff" stroke-width="2" />
+  <line x1="58" y1="85" x2="80" y2="85" stroke="#fff" stroke-width="2" />
+  
+  <!-- Designer person -->
+  <circle cx="90" cy="35" r="15" fill="#ffb74d" />
+  <path d="M 90 50 Q 75 55 70 75 L 70 95 L 110 95 L 110 75 Q 105 55 90 50 Z" fill="#42a5f5" />
+  
+  <!-- Arms -->
+  <path d="M 70 60 Q 55 65 50 75" stroke="#ffb74d" stroke-width="5" fill="none" stroke-linecap="round" />
+  <path d="M 110 60 Q 125 65 130 75" stroke="#ffb74d" stroke-width="5" fill="none" stroke-linecap="round" />
+  
+  <!-- Coffee cup -->
+  <rect x="130" y="70" width="18" height="20" rx="2" fill="#8d6e63" />
+  <ellipse cx="139" cy="70" rx="9" ry="3" fill="#6d4c41" />
+  <path d="M 148 75 Q 155 75 155 82 Q 155 87 148 87" stroke="#8d6e63" stroke-width="2" fill="none" />
+  
+  <!-- Money/Dollar sign -->
+  <circle cx="30" cy="40" r="12" fill="#4caf50" />
+  <text x="30" y="47" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">$</text>
+  
+  <!-- Design elements -->
+  <circle cx="150" cy="35" r="8" fill="#ff4757" opacity="0.7" />
+  <rect x="20" y="110" width="15" height="15" fill="#ffd02f" opacity="0.7" />
+  <polygon points="160,120 170,135 150,135" fill="#9c27b0" opacity="0.7" />
+</svg>
