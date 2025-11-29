@@ -41,7 +41,7 @@ a {
     width: var(--sidebar-width);
     background-color: var(--white);
     border-right: 1px solid var(--border-color);
-    padding: 50px 35px;
+    padding: 30px 25px 20px 25px;
     overflow-y: auto;
     position: sticky;
     top: 0;
@@ -50,65 +50,65 @@ a {
 
 .profile-section {
     text-align: center;
-    margin-bottom: 35px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .profile-image-wrapper {
     position: relative;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .profile-image {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
-    border: 4px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     display: block;
 }
 
 .live-badge {
     position: absolute;
-    bottom: 8px;
+    bottom: 5px;
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--primary-color);
     color: var(--white);
-    font-size: 9px;
+    font-size: 8px;
     font-weight: 700;
-    padding: 4px 14px;
-    border-radius: 12px;
-    letter-spacing: 1px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    letter-spacing: 0.8px;
 }
 
 .name {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
     color: var(--text-dark);
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .location {
     color: var(--text-light);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 /* Contact Info */
 .contact-info {
-    margin-bottom: 25px;
-    padding: 0 10px 25px 10px;
+    margin-bottom: 18px;
+    padding: 0 5px 18px 5px;
     border-bottom: 1px solid var(--border-color);
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 12px;
+    gap: 10px;
+    margin-bottom: 8px;
     color: var(--text-light);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .contact-item:last-child {
@@ -116,8 +116,8 @@ a {
 }
 
 .contact-item .icon {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     stroke-width: 2;
     flex-shrink: 0;
     color: var(--text-light);
@@ -134,139 +134,141 @@ a {
 
 /* Title Section */
 .title-section {
-    margin-bottom: 25px;
-    padding: 0 10px 25px 10px;
+    margin-bottom: 18px;
+    padding: 0 5px 18px 5px;
     border-bottom: 1px solid var(--border-color);
     text-align: center;
 }
 
 .job-title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--primary-color);
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .experience {
-    font-size: 15px;
+    font-size: 13px;
     color: var(--text-light);
     font-weight: 400;
 }
 
 /* Section Headings */
 .section-heading {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     color: var(--text-dark);
-    margin-bottom: 18px;
+    margin-bottom: 12px;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.5px;
 }
 
 /* Skills Section */
 .skills-section {
-    margin-bottom: 25px;
-    padding: 0 5px 25px 5px;
+    margin-bottom: 18px;
+    padding: 0 0 18px 0;
     border-bottom: 1px solid var(--border-color);
 }
 
 .skill-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 7px;
     justify-content: center;
 }
 
 .skill-tag {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 5px 12px;
     border: 1px solid var(--border-color);
-    border-radius: 20px;
-    font-size: 13px;
+    border-radius: 15px;
+    font-size: 11px;
     color: var(--text-dark);
     background-color: var(--white);
     transition: all 0.3s;
     font-weight: 400;
+    line-height: 1.4;
 }
 
 .skill-tag:hover {
     border-color: var(--primary-color);
     background-color: #fef2f2;
     color: var(--primary-color);
-    transform: translateY(-2px);
+    transform: translateY(-1px);
 }
 
 /* Tools Section */
 .tools-section {
-    margin-bottom: 25px;
-    padding: 0 10px 25px 10px;
+    margin-bottom: 18px;
+    padding: 0 5px 18px 5px;
     border-bottom: 1px solid var(--border-color);
 }
 
 .tool-list {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 10px;
 }
 
 .tool-item {
     display: flex;
     align-items: center;
-    gap: 14px;
-    font-size: 15px;
+    gap: 12px;
+    font-size: 13px;
     color: var(--text-dark);
     font-weight: 400;
 }
 
 .tool-icon {
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    height: 28px;
     flex-shrink: 0;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 /* Languages Section */
 .languages-section {
-    margin-bottom: 25px;
-    padding: 0 5px 25px 5px;
+    margin-bottom: 18px;
+    padding: 0 0 18px 0;
     border-bottom: 1px solid var(--border-color);
 }
 
 .language-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 7px;
     justify-content: center;
 }
 
 .language-tag {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 5px 12px;
     border: 1px solid var(--border-color);
-    border-radius: 20px;
-    font-size: 13px;
+    border-radius: 15px;
+    font-size: 11px;
     color: var(--text-dark);
     background-color: var(--white);
     font-weight: 400;
+    line-height: 1.4;
 }
 
 /* Web Section */
 .web-section {
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .web-links {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 10px;
 }
 
 .web-link {
     display: flex;
     align-items: center;
-    gap: 12px;
-    font-size: 13px;
+    gap: 10px;
+    font-size: 12px;
     color: #3b82f6;
     transition: color 0.3s;
     word-break: break-all;
@@ -277,8 +279,8 @@ a {
 }
 
 .web-link .icon {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     flex-shrink: 0;
 }
 
@@ -307,13 +309,13 @@ a {
     padding: 15px;
     cursor: pointer;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 15px;
+    left: 15px;
     z-index: 1000;
 }
 
 .mobile-menu-toggle span {
-    width: 28px;
+    width: 25px;
     height: 3px;
     background-color: var(--text-dark);
     transition: all 0.3s;
@@ -332,11 +334,11 @@ a {
 }
 
 .nav-link {
-    padding: 22px 35px;
-    font-size: 13px;
+    padding: 18px 28px;
+    font-size: 12px;
     font-weight: 600;
     color: var(--text-light);
-    letter-spacing: 0.8px;
+    letter-spacing: 0.5px;
     border-bottom: 3px solid transparent;
     transition: all 0.3s;
 }
@@ -353,19 +355,19 @@ a {
 
 /* Content Area */
 .content {
-    padding: 60px 60px;
+    padding: 35px 40px;
 }
 
 .about-section {
     display: grid;
-    grid-template-columns: 220px 1fr;
-    gap: 50px;
+    grid-template-columns: 180px 1fr;
+    gap: 35px;
     align-items: start;
 }
 
 .about-image {
-    width: 220px;
-    padding: 10px;
+    width: 180px;
+    padding: 5px;
 }
 
 .illustration {
@@ -375,13 +377,13 @@ a {
 }
 
 .about-text {
-    max-width: 850px;
+    max-width: 900px;
 }
 
 .about-text p {
-    margin-bottom: 24px;
-    font-size: 16px;
-    line-height: 1.8;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 1.7;
     color: var(--text-dark);
     font-weight: 400;
 }
@@ -396,11 +398,11 @@ a {
 @media (max-width: 1400px) {
     .sidebar {
         width: 360px;
-        padding: 45px 30px;
+        padding: 28px 22px 18px 22px;
     }
 
     .content {
-        padding: 50px 50px;
+        padding: 32px 35px;
     }
 }
 
@@ -408,40 +410,45 @@ a {
 @media (max-width: 1200px) {
     .sidebar {
         width: 320px;
-        padding: 40px 25px;
+        padding: 25px 20px 15px 20px;
     }
 
     .content {
-        padding: 45px 40px;
+        padding: 30px 30px;
     }
 
     .about-section {
-        grid-template-columns: 180px 1fr;
-        gap: 40px;
+        grid-template-columns: 160px 1fr;
+        gap: 30px;
     }
 
     .about-image {
-        width: 180px;
+        width: 160px;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media (max-width: 992px) {
     .about-section {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 25px;
     }
 
     .about-image {
-        width: 200px;
+        width: 160px;
         margin: 0 auto;
     }
 
     .content {
-        padding: 40px 35px;
+        padding: 28px 25px;
     }
 
     .nav-link {
-        padding: 20px 30px;
+        padding: 16px 24px;
     }
 }
 
@@ -472,83 +479,25 @@ a {
     }
 
     .main-content {
-        padding-top: 70px;
+        padding-top: 60px;
     }
 
     .main-nav {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 5px;
     }
 
     .nav-link {
-        padding: 16px 22px;
-        font-size: 12px;
-    }
-
-    .content {
-        padding: 30px 20px;
-    }
-
-    .about-section {
-        gap: 25px;
-    }
-
-    .about-image {
-        width: 160px;
-    }
-
-    .about-text p {
-        font-size: 15px;
-        line-height: 1.75;
-        margin-bottom: 20px;
-    }
-
-    .profile-image {
-        width: 110px;
-        height: 110px;
-    }
-
-    .name {
-        font-size: 30px;
-    }
-
-    .location {
-        font-size: 16px;
-    }
-
-    .skill-tags, .language-tags {
-        gap: 8px;
-    }
-
-    .skill-tag, .language-tag {
-        font-size: 12px;
-        padding: 7px 14px;
-    }
-
-    .section-heading {
-        font-size: 12px;
-        margin-bottom: 16px;
-    }
-
-    .tool-icon {
-        width: 32px;
-        height: 32px;
-    }
-
-    .tool-item {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 480px) {
-    .nav-link {
-        padding: 14px 18px;
+        padding: 14px 20px;
         font-size: 11px;
     }
 
     .content {
-        padding: 25px 15px;
+        padding: 25px 18px;
+    }
+
+    .about-section {
+        gap: 20px;
     }
 
     .about-image {
@@ -556,30 +505,96 @@ a {
     }
 
     .about-text p {
-        font-size: 14px;
-        margin-bottom: 18px;
+        font-size: 13px;
+        line-height: 1.65;
+        margin-bottom: 15px;
+    }
+
+    .profile-image {
+        width: 95px;
+        height: 95px;
     }
 
     .name {
         font-size: 26px;
     }
 
-    .profile-image {
-        width: 100px;
-        height: 100px;
+    .location {
+        font-size: 14px;
     }
 
-    .job-title {
-        font-size: 20px;
+    .skill-tags, .language-tags {
+        gap: 6px;
     }
 
     .skill-tag, .language-tag {
+        font-size: 10px;
+        padding: 5px 11px;
+    }
+
+    .section-heading {
         font-size: 11px;
-        padding: 6px 12px;
+        margin-bottom: 10px;
+    }
+
+    .tool-icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .tool-item {
+        font-size: 13px;
+        gap: 10px;
     }
 
     .contact-item {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-link {
+        padding: 12px 16px;
+        font-size: 10px;
+    }
+
+    .content {
+        padding: 20px 12px;
+    }
+
+    .about-image {
+        width: 130px;
+    }
+
+    .about-text p {
         font-size: 13px;
+        margin-bottom: 14px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .profile-image {
+        width: 90px;
+        height: 90px;
+    }
+
+    .job-title {
+        font-size: 16px;
+    }
+
+    .skill-tag, .language-tag {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .contact-item {
+        font-size: 12px;
+    }
+
+    .about-section {
+        gap: 18px;
     }
 }
 
@@ -606,7 +621,7 @@ html {
 
 /* Custom Scrollbar */
 .sidebar::-webkit-scrollbar {
-    width: 6px;
+    width: 5px;
 }
 
 .sidebar::-webkit-scrollbar-track {
@@ -626,7 +641,7 @@ html {
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(15px);
     }
     to {
         opacity: 1;
@@ -635,22 +650,22 @@ html {
 }
 
 .about-text p {
-    animation: fadeIn 0.6s ease-out;
+    animation: fadeIn 0.5s ease-out;
     animation-fill-mode: both;
 }
 
 .about-text p:nth-child(1) {
-    animation-delay: 0.1s;
+    animation-delay: 0.05s;
 }
 
 .about-text p:nth-child(2) {
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 
 .about-text p:nth-child(3) {
-    animation-delay: 0.3s;
+    animation-delay: 0.15s;
 }
 
 .about-text p:nth-child(4) {
-    animation-delay: 0.4s;
+    animation-delay: 0.2s;
 }
